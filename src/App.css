@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #555;
+}
+.TitleHeader {
+  padding: 8px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header div {
+  cursor: pointer !important;
+  
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  width: 20px;
+}
+header span {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  /* padding: 4px; */
+  width: 20px;
+  height: 20px;
+  margin-bottom: 2px;
+  line-height: 20px;
+  
+}
+.cart {
+  position: absolute;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  align-items: flex-end;
+  right: 0;
+  background-color: #555;
+  z-index: 77777777;
+  padding: 20px;
+  background-color: white;
+  height: 600px;
+  overflow-y: scroll;
+  box-shadow: -5px 1px 20px 15px #00000096;
+  
+}
+.products {
+  gap: 50px;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.pp {
+  background-color: #555 !important;
+  margin-top: 20px;
+}
+.product {
+  background-color: white;
+  border-radius: 6px;
+  width: 300px;
+  padding: 10px;
+  transition: 0.6s;
+}
+.product:hover {
+  transform: scale(1.1);
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 20px);
+}
+.title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.des {
+  line-height: 23px;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+.rate {
+  font-size: 18px;
+}
+.fo {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.fo p {
+  font-weight: 600;
+}
+.fo button {
+  border-radius: 4px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.fo button:hover {
+  transform: scale(1.1);
+}
+.Loading {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}
